@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wework",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Mike Nason <michael.nason@wework.com> (https://github.com/nason)",
   "license": "MIT",
   "description": "ESLint config for WeWork projects",
