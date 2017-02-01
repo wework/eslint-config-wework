@@ -19,10 +19,14 @@ ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb
 ### Install:
 
 ```
-npm install eslint eslint-config-wework eslint-config-airbnb eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y --save
+npm install eslint-config-wework --save
 ```
 
-Ideally, this package would be able to use its own dependencies, but ESLint does not support that at this time. For now, consumers need to install all of the above.
+If you're using `npm` < v3 you'll need to install each of this packages `peerDependencies` explicitly.
+
+```
+npm install eslint-config-airbnb eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y --save
+```
 
 Note: make sure the versions of the above packages that are installed satisfy this package's `peerDependencies`, otherwise you might see inconsistent behavior.
 

@@ -8,6 +8,7 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'react/sort-comp': 'off',
     'react/no-danger': 'off',
+    'react/require-default-props': 'off',
 
     'react/no-array-index-key': 'error',
     'react/prefer-es6-class': ['error', 'always'],
