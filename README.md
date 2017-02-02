@@ -1,6 +1,8 @@
 eslint-config-wework
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wework/eslint-config-wework.svg)](https://greenkeeper.io/)
+
 [![Libraries.io for GitHub][librariesio-image]][librariesio-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
