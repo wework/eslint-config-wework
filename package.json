@@ -46,6 +46,7 @@
     "eslint-plugin-lodash": "2.4.4",
     "eslint-plugin-mocha": "4.11.0",
     "eslint-plugin-node": "5.1.1",
+    "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-react": "7.1.0",
     "eslint-plugin-security": "1.4.0"
   },
@@ -56,6 +57,7 @@
     "eslint-plugin-lodash": "2.4.4",
     "eslint-plugin-mocha": "4.11.0",
     "eslint-plugin-node": "5.1.1",
+    "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-react": "7.1.0",
     "eslint-plugin-security": "1.4.0"
   }

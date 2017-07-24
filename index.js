@@ -1,7 +1,12 @@
 module.exports = {
+  plugins: [
+    'promise',
+  ],
+
   extends: [
     'eslint:recommended',
     'airbnb',
+    'plugin:promise/recommended',
   ],
 
   parserOptions: {
