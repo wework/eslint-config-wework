@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wework",
-  "version": "2.0.0",
+  "version": "3.0.0-beta.1",
   "author": "Mike Nason <michael.nason@wework.com> (https://github.com/nason)",
   "license": "MIT",
   "description": "ESLint config for WeWork projects",
@@ -24,21 +24,25 @@
   "homepage": "https://github.com/wework/eslint-config-wework#readme",
   "devDependencies": {
     "auto-changelog": "0.3.1",
-    "np": "2.12.0",
-    "nsp": "2.6.2"
+    "husky": "0.14.3",
+    "np": "2.16.0",
+    "nsp": "2.6.3"
   },
   "peerDependencies": {
-    "eslint": "^3.14.1",
-    "eslint-config-airbnb": "14.0.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "3.0.2",
-    "eslint-plugin-react": "6.9.0"
+    "eslint": ">=4.3.0",
+    "eslint-config-airbnb": "15.0.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-mocha": "4.11.0",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-security": "1.4.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "14.0.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "3.0.2",
-    "eslint-plugin-react": "6.9.0",
-    "husky": "^0.13.1"
+    "eslint-config-airbnb": "15.0.2",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-mocha": "4.11.0",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-security": "1.4.0"
   }
 }

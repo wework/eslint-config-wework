@@ -81,6 +81,37 @@ To enable linting of ES2015+ (ES6+) import/export syntax, and prevent issues wit
 }
 ```
 
+### Mocha:
+To enable linting of Mocha/Chai/Sinon tests add a eslintrc file to your test folder:
+
+```
+{
+  "extends": [
+    "wework/mocha",
+  ],
+  "rules": {
+    # Override preset rules here
+  },
+}
+```
+
+### Node Security:
+To enable identification of security hotspots add a eslintrc file to your node src folder:
+
+```
+{
+  "extends": [
+    "wework/node-security",
+  ],
+  "rules": {
+    # Override preset rules here
+  },
+}
+```
+
+Note: this plugin is slow, finds a lot of false positives which need triage by a human, and isn't geared towards client-side. Use sparingly!
+See https://github.com/nodesecurity/eslint-plugin-security for more info.
+
 # Development
 
 1. Checkout this repo
