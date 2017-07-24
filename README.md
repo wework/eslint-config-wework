@@ -11,7 +11,7 @@ eslint-config-wework
 
 # Introduction
 
-ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb` and also provides `react`, `imports`, `mocha`, and `node-security` presets.
+ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb` and also provides `react`, `imports`, `lodash`, `mocha`, and `node-security` presets.
 
 
 # Usage
@@ -74,6 +74,22 @@ To enable linting of ES2015+ (ES6+) import/export syntax, and prevent issues wit
     "wework",
     "wework/react",
     "wework/imports"
+  ],
+  "rules": {
+    # Override preset rules here
+  },
+}
+```
+
+### Lodash:
+To enable React-specific rules, extend `wework/lodash`:
+
+```
+{
+  "root": true,
+  "extends": [
+    "wework",
+    "wework/lodash"
   ],
   "rules": {
     # Override preset rules here
