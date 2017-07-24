@@ -20,5 +20,5 @@ module.exports = {
     'react/jsx-no-comment-textnodes': 'error',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-target-blank': 'error',
-  }
-}
+  },
+};

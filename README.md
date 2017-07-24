@@ -11,7 +11,7 @@ eslint-config-wework
 
 # Introduction
 
-ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb` and also provides `react` and `imports` presets.
+ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb` and also provides `react`, `imports`, `mocha`, and `node-security` presets.
 
 
 # Usage
@@ -123,6 +123,7 @@ The purpose of this package is to define and enforce code style in JavaScript co
 
 Target | Behavior
 ------------ | -------------
+**`npm run lint`** | (*Run as a git pre-commit hook*) Lint the config with itself
 **`npm run security-scan`** | (*Run as a git pre-push hook*) Checks npm dependencies for security vulnerabilities
 **`npm run release <version>`** | Generates a changelog, updates package version, tags and pushes via [`np`](https://www.npmjs.com/package/np). This should only be run on an up-to-date `master` by a maintainer of this package. <br /><br />Version can be a semver level: `patch | minor | major | prepatch | preminor | premajor | prerelease`, or a valid semver version: `1.2.3`.
 

@@ -10,9 +10,15 @@
   ],
   "scripts": {
     "prepush": "npm run security-scan",
+    "precommit": "lint-staged",
     "security-scan": "nsp check --output summary --warn-only",
     "version": "auto-changelog --template compact --package; git add CHANGELOG.md",
-    "release": "np"
+    "release": "np",
+    "lint": "eslint",
+    "lint:all": "npm run lint '**/*.{js,jsx}'"
+  },
+  "lint-staged": {
+    "*.js": ["lint"]
   },
   "repository": {
     "type": "git",
@@ -24,7 +30,9 @@
   "homepage": "https://github.com/wework/eslint-config-wework#readme",
   "devDependencies": {
     "auto-changelog": "0.3.1",
+    "eslint": ">=4.3.0",
     "husky": "0.14.3",
+    "lint-staged": "4.0.2",
     "np": "2.16.0",
     "nsp": "2.6.3"
   },

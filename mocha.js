@@ -1,7 +1,7 @@
 // Config for a Mocha/Chai/Sinon harness
 module.exports = {
   plugins: [
-    'mocha'
+    'mocha',
   ],
 
   env: {
@@ -14,10 +14,10 @@ module.exports = {
   },
 
   rules: {
-    "no-unused-expressions": 0,
-    "max-len": 0,
-    "mocha/no-exclusive-tests": 1,
-    "mocha/handle-done-callback": 1,
-    "mocha/no-nested-tests": 1
-  }
-}
+    'no-unused-expressions': 0,
+    'max-len': 0,
+    'mocha/no-exclusive-tests': 1,
+    'mocha/handle-done-callback': 1,
+    'mocha/no-nested-tests': 1,
+  },
+};
