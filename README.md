@@ -11,7 +11,7 @@ eslint-config-wework
 
 # Introduction
 
-ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb` and also provides `react`, `imports`, `lodash`, `mocha`, and `node-security` presets.
+ESLint config for WeWork projects. This is an extension of `eslint-config-airbnb` and also provides `react`, `imports`, `lodash`, `mocha`, and `node` presets.
 
 
 # Usage
@@ -111,13 +111,13 @@ To enable linting of Mocha/Chai/Sinon tests add a eslintrc file to your test fol
 }
 ```
 
-### Node Security:
-To enable identification of security hotspots add a eslintrc file to your node src folder:
+### Node:
+For Node specific config, including identification of security hotspots, add a eslintrc file to your node src folder:
 
 ```
 {
   "extends": [
-    "wework/node-security",
+    "wework/node",
   ],
   "rules": {
     # Override preset rules here
@@ -125,7 +125,7 @@ To enable identification of security hotspots add a eslintrc file to your node s
 }
 ```
 
-Note: this plugin is slow, finds a lot of false positives which need triage by a human, and isn't geared towards client-side. Use sparingly!
+Note: the security plugin is slow, finds a lot of false positives which need triage by a human, and isn't geared towards client-side. Use sparingly!
 See https://github.com/nodesecurity/eslint-plugin-security for more info.
 
 # Development
