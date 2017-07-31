@@ -36,11 +36,11 @@
     "husky": "0.14.3",
     "lint-staged": "4.0.2",
     "np": "2.16.0",
-    "nsp": "2.6.3"
+    "nsp": "2.7.0"
   },
   "peerDependencies": {
     "eslint": ">=4.3.0",
-    "eslint-config-airbnb": "15.0.2",
+    "eslint-config-airbnb": "15.1.0",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-lodash": "2.4.4",
@@ -51,7 +51,7 @@
     "eslint-plugin-security": "1.4.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "15.0.2",
+    "eslint-config-airbnb": "15.1.0",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-lodash": "2.4.4",
