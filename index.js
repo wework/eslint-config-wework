@@ -39,5 +39,7 @@ module.exports = {
       imports: 'always-multiline',
       exports: 'always-multiline',
     }],
+
+    'promise/no-nesting': 'off',
   },
 };

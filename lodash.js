@@ -8,6 +8,9 @@ module.exports = {
   ],
 
   rules: {
+    // Chaining makes tree-shaking difficult
+    'lodash/prefer-chain': 0,
+
     // Native methods are fine too
     'lodash/prefer-lodash-method': 0,
 
